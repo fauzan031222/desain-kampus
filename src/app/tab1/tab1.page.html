@@ -1,17 +1,289 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-menu contentId="main-content">
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title>One of The Best UOC </ion-title>
     </ion-toolbar>
   </ion-header>
+  <ion-content class="ion-padding">Sistem Informasi</ion-content>
+  <ion-content class="ion-padding">14200007</ion-content>
+  <ion-content class="ion-padding">Institut Teknologi Suteki</ion-content>
+</ion-menu>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
-</ion-content>
+<div class="ion-page" id="main-content">
+  <ion-header>
+    <ion-toolbar>
+      <ion-buttons slot="start">
+        <ion-menu-button></ion-menu-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+  <ion-content>
+    <ion-item>
+      <ion-button (click)="Logout()" slot="end" size="small" fill="clear">Logout</ion-button>
+    </ion-item>
+    <div class="main_content_div">
+      <div class="user_div">
+        <ion-avatar class="avatar">
+          <img alt="Silhouette of a person's head" src="assets/logo.jpeg" />
+        </ion-avatar>
+       <!-- <div class="user_back" [style.backgroundImage]="'url(assets/logo.jpeg)'"></div> -->
+
+        <div class="first_div">
+
+          <ion-label class="Welcome">Zufar Rakasiwa</ion-label>
+          <ion-label class="Welcome">Akuntansi (SI)</ion-label>
+       
+       </div>
+
+       <div class="mapouter">
+        <div class="gmap_canvas">
+          <ion-avatar class="avatar">
+            <img alt="Silhouette of a person's head" src="assets/192.webp" />
+          </ion-avatar>
+          <!-- <div class="user_back" [style.backgroundImage]="'url(assets/192.webp)'"></div> -->
+
+        </div>
+       </div>
+      </div>
+    </div>
+
+    <ion-grid>
+      <ion-row>
+        <ion-col class="pupa">
+          <h1>3.4</h1>
+          <p>IP Kumulatif</p>
+        </ion-col>
+        <ion-col class="pupa">
+          <h1>21</h1>
+          <p>SKS Tempuh</p>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+  
+  <ion-slides>
+    <ion-slide>
+      <div class="slide">
+        <!-- <b>ACADEMIC</b> -->
+        <ion-row>
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><img src="assets/b.png" alt=""></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/a.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+              </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b></b><img src="assets/c.png" alt=""></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+              </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/d.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+              </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><img src="assets/e.png" alt=""><b></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/f.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-slide>
+  
+    <ion-slide>
+      <div class="slide">
+      
+        <ion-row>
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/h.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/i.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/j.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/k.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/l.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/m.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-slide>
+  
+    <ion-slide>
+      <div class="slide">
+      
+        <ion-row>
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b></b><img src="assets/n.png" alt=""></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/o.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/p.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b></b><img src="assets/q.png" alt=""></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/r.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+              </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+  
+          <ion-col size="4">
+            <ion-card routerLink="/blank">
+              <ion-card-content>
+                <div style="text-align: center;">
+                  <ion-card-title><b><img src="assets/s.png" alt=""></b></ion-card-title>
+                  <ion-card-subtitle></ion-card-subtitle>
+                </div>
+              </ion-card-content>
+            </ion-card>
+          </ion-col>
+        </ion-row>
+      </div>
+    </ion-slide>
+  </ion-slides>
+  </ion-content>
+  
+</div>
+
